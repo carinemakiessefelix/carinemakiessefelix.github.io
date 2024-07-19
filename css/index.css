@@ -1,0 +1,255 @@
+#menu {
+  height: 55px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#menu h1{
+  display: none; 
+}
+
+#menu img {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  width: 100px;
+  height: 60px;
+  margin: 10px;
+box-shadow: 0px 0px 0px #687c21;
+}
+
+#menu ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#menu li {
+  display: inline-block;
+  margin-right: 30px;
+  float: right;
+}
+
+#menu a {
+    font-size: 16pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5%;
+    font-style: italic;
+    text-decoration: none;
+    color: #687c21;
+    transition: color;
+}
+nav#menu a:hover{
+    color: #333;
+    box-shadow: 1px 1px 1px #687c21;
+} 
+
+/*###################################################################*/
+
+div.banner {
+    top: 5px;
+    position: relative;
+}
+
+div.banner img{
+    width: 100%;
+    height: 650px;
+}
+
+div.banner figcaption{
+    opacity: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    width: 100%;
+    height: 650px;
+}
+
+
+
+/**********************************No body***************************************/
+
+h2#bd{
+    text-align: justify;
+    margin-left: 55px;
+    padding: 8px;
+    color: #687c21;
+}
+p#bd{
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 55px;
+}
+
+/*###################################################################*/
+
+
+
+.Exposicao button{
+    background-color: #687c21;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 45%;
+    color: #fff;
+ }
+
+.Exposicao a{
+    
+  font-size: 16px; 
+  padding: 20px; 
+  color: #fff; 
+  text-decoration: none; 
+ }
+
+ .Exposicao .f h2{
+    position: relative;
+    color: #687c21;
+}
+.Exposicao .f{
+    position: relative;
+    display: inline-block;
+    margin-left: 7%;
+    margin-top: 2%;
+    height: 225px;
+    width: 24%;
+}
+
+.Exposicao figcaption{
+    position: absolute;
+    opacity: 1;
+    text-align: center;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    padding-top: 65px;
+    top: 94px;
+    width: 100%;
+    height: 72%;
+    background-color:rgba(0, 0, 0, .4);
+}
+
+.Expos .f{
+   
+   
+}
+
+.Expos figcaption{
+    
+    
+}
+
+/************************************Fotos**************************************/
+#c{
+    height: 100%;
+    width: 100%;
+}
+
+
+/**************************************Tratando do rodape**********************************/
+
+/*Tratando do rodape*/
+
+@media only screen and (max-width: 768px) {
+  .rodape {
+    font-size: 10pt;
+  }
+}
+
+.rodape{
+	width: 100%;
+	height: 100%;
+	background-color: #333;
+	display: flex;
+	flex-direction: row;
+	transform: translate(0,30%);
+}
+
+#rop{ 
+	width: 50%;
+	height: 50%;
+	color: #687c21;	
+}
+
+#rop p{
+	font-size: 12pt;	
+}
+
+#rop h4{
+	color: #fff;
+}
+
+#cen2{	 
+    position: relative;
+    top: 50%;
+   
+}
+
+#cen2 ul{   
+   list-style: none;
+}
+
+#cen2 ul li{
+   display: inline-block;
+}
+
+
+#imaRoda {
+  max-width: 100px;
+  max-height: 55px;
+  float: left;
+  margin: 15px auto;
+  text-align: center;
+}
+
+#imaRoda img {
+  border-radius: 10px;
+  width: 30%; 
+  height: auto; 
+  margin-bottom: 10px; 
+}
+
+#imaRoda h4 {
+  font-family: Helvetica; 
+  font-size: 10pt; 
+  color: rgb(120, 125, 133);
+  margin-top: -17px; 
+  margin-left: 55px; 
+}
+
+#botao {
+  font-size: 16px; 
+  padding: 20px;
+  color: #fff; 
+  text-decoration: none; 
+}
+
+#cen2 button{
+  box-shadow: 1px 2px 3px black;
+  border: none;
+  background-color: #687c21; /* cor de fundo */
+  border-radius: 8px;
+  padding: 3px;
+  float: right;
+}
+
+a[href="emailto:carinefeliciano5@gmail.com?subject=Assunto da mensagem&body=Mensagem inicial"] {
+  text-decoration: none;
+  color: #687c21;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+a[href="emailto:carinefeliciano5@gmail.com?subject=Assunto da mensagem&body=Mensagem inicial"]:hover {
+  text-decoration: underline;
+  color: #687c21;
+  border-color: #333;
+}
+
+
+body{
+	cursor: pointer; 
+}

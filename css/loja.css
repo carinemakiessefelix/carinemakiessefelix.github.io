@@ -1,0 +1,67 @@
+
+##########################################################################################
+
+.Expos .f h3 {
+  color: #687c21;
+}
+
+.Expos .f{
+    position: relative;
+    display: inline-block;
+    margin-left: 7%;
+    margin-top: 2%;
+    height: 220px;
+    width: 24%;
+   
+}
+
+.Expos figcaption{
+    position: absolute;
+    transition: opacity 1s;
+    opacity: 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#fff;
+    color:  rgba(0, 0, 0, .8);
+    padding-left: 7px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Expos button{
+    background-color: #687c21;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 45%;
+    color: #fff;
+ }
+
+.Expos a{
+    
+  font-size: 16px; 
+  padding: 20px; 
+  color: #fff; 
+  text-decoration: none; 
+ }
+
+/*###################################################################*/
+
+@media only screen and (max-width: 768px) {
+  .rodape {
+    font-size: 10pt;
+  }
+}
+
+
+
+.Expos .f:hover figcaption{
+    opacity: 1;
+}
+
+#c{
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 2px 5px black;
+}

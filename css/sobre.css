@@ -1,0 +1,224 @@
+#menu {
+  height: 14px;
+  padding-top: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+#menu h1{
+  display: none; 
+}
+
+#menu img {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100px;
+  height: 70px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#menu ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#menu li {
+  display: inline-block;
+  margin-right: 30px;
+  float: right;
+}
+
+#menu a {
+    font-size: 16pt;
+    padding: 5%;
+    text-decoration: none;
+    color: #fff;
+    transition: color;
+}
+nav#menu a:hover{
+    color: #687c21;
+    
+} 
+
+#cabeçalho {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/*No body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.about {
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center; 
+    align-items:center; 
+    width:100%; 
+    height:auto; 
+    margin-top:80px; 
+}
+
+.image-container {
+  float: left;
+  width: 70%;
+  margin-right: 20px; 
+}
+
+.text {
+  width: 60%; 
+  float: right; 
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1#bd{
+    text-decoration: overline;
+    text-indent: 50px;
+}
+
+h4#bd{
+    text-decoration: overline;
+    text-indent: 50px;
+}
+
+p#bd{
+    font-size: 16px;
+    padding: 12px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+/* Tamanho de tela até 768px (tabelt)
+--------------------------------------- */
+@media only screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+  .image-container {
+    width: 100%;
+    margin-right: 0;
+  }
+  .text {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
+
+/* Tamanho de tela entre 769px e 1024px (desktop)
+------------------------------------------- */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {}
+
+/* Tamanho de tela acima de 1024px (desktop grande)
+-------------------------------------------- */
+@media only screen and (min-width: 1025px) {}
+
+@media only screen and (max-width: 768px) {
+
+/*Tratando do rodape*/
+  .rodape {
+    font-size: 10pt;
+  }
+}
+
+.rodape{
+	width: 100%;
+	height: 100%;
+	background-color: #333;
+	display: flex;
+	flex-direction: row;
+	transform: translate(0,30%);
+}
+
+#rop{ 
+	width: 50%;
+	height: 50%;
+	color: #687c21;	
+}
+
+#rop p{
+	font-size: 12pt;	
+}
+
+#rop h4{
+	color: #fff;
+}
+
+#cen2{	 
+    position: relative;
+    top: 50%;
+   
+}
+
+#cen2 ul{   
+   list-style: none;
+}
+
+#cen2 ul li{
+   display: inline-block;
+}
+
+
+#imaRoda {
+  max-width: 100px;
+  max-height: 55px;
+  float: left;
+  margin: 15px auto;
+  text-align: center;
+}
+
+#imaRoda img {
+  border-radius: 10px;
+  width: 30%; /* ajusta a largura da imagem */
+  height: auto; /* ajusta a altura da imagem */
+  margin-bottom: 10px; /* ajusta a distância entre a imagem e a fonte */
+}
+
+#imaRoda h4 {
+  font-family: Helvetica; 
+  font-size: 10pt; /* ajusta o tamanho da fonte */
+  color: rgb(120, 125, 133);
+  margin-top: -17px; /* ajusta a distância entre a fonte e o topo */
+  margin-left: 55px; /* ajusta a distância entre a fonte e a margem esquerda */
+}
+
+#botao {
+  font-size: 16px; /* tamanho da fonte */
+  padding: 20px; /* espaçamento entre texto e borda */
+  color: #fff; /* cor do texto */
+  text-decoration: none; /* remova o underline do link */
+}
+
+#cen2 button{
+  box-shadow: 1px 2px 3px black;
+  border: none;
+  background-color: #687c21; /* cor de fundo */
+  border-radius: 8px;
+  padding: 3px;
+  float: right;
+}
+
+a[href="emailto:carinefeliciano5@gmail.com?subject=Assunto da mensagem&body=Mensagem inicial"] {
+  text-decoration: none;
+  color: #687c21;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+a[href="emailto:carinefeliciano5@gmail.com?subject=Assunto da mensagem&body=Mensagem inicial"]:hover {
+  text-decoration: underline;
+  color: #687c21;
+  border-color: #333;
+}
+
+body{
+	cursor: pointer; /* adicione um cursor de ponteiro quando o mouse passar sobre o link */
+}
+

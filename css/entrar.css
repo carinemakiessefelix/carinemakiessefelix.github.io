@@ -1,0 +1,119 @@
+ #menu {
+  height: 14px;
+  padding-top: 20px;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+}
+
+#menu h1{
+  display: none; 
+}
+
+#menu ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#menu li {
+  display: inline-block;
+  margin-right: 10px;
+  float: right;
+}
+
+#menu a {
+    font-size: 12pt;
+    padding: 5%;
+    text-decoration: none;
+    color: #fff;
+    transition: color;
+}
+nav#menu a:hover{
+    color: #000;
+    
+} 
+
+body{
+	background-color: #fff; 
+}
+
+#menu button{
+  box-shadow: 1px 2px 3px black;
+  border: none;
+  background-color: #687c21; /* cor de fundo */
+  border-radius: 8px;
+  padding: 3px;
+  float: right;
+  height: 30px;
+  width: 90px;
+ 
+}
+
+
+/*###################################################################*/
+
+
+
+/*Formatação do formulario*/
+
+div#formi {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 400px;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px #687c21;
+}
+
+div#formi h2 {
+  text-align: center;
+  color: #687c21;
+}
+
+div input {
+  margin-top: 10px;
+  border-radius: 6px;
+  height: 40px;
+  width: calc(100% - 20px); 
+}
+
+button {
+  height: 30px;
+  width: calc(80% - 20px); 
+  box-shadow: 1px 2px 3px black;
+  border: none;
+  background-color: #687c21; /* cor de fundo */
+  border-radius: 8px;
+  padding: 3px;
+  margin-top: 20px;
+  margin-left: 40px;
+  color: #fff;
+}
+
+/* Estilos adicionais para tornar o formulário responsivo */
+
+@media only screen and (max-width: 768px) {
+  div#formi {
+    max-width: none; 
+    width: calc(80% - 20px);
+    padding-left: 20px; 
+    padding-right: 20px;
+    margin-bottom: calc(100vh - (height of the div + bottom margin)); 
+    box-shadow: none; 
+    border-radius: none;
+    background-color: #fff;
+    opacity: .8; 
+    position: relative; 
+    left: auto; 
+    top: 60%; 
+    transform: none; 
+    padding-top: calc(50vh - (height of the div + top margin)); 
+    padding-bottom: calc(50vh - (height of the div + bottom margin)); 
+    margin-top: calc(50vh - (height of the div + top margin)); 
+    margin-bottom: calc(50vh - (height of the div + bottom margin)); 
+}
+
+@media only screen and (max-width: 480px) {}
